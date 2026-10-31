@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1f2328"/>
+  <g opacity=".16" stroke="#89919a" stroke-width="1">
+    <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200M0 400H1200M0 480H1200M0 560H1200"/>
+    <path d="M80 0V630M160 0V630M240 0V630M320 0V630M400 0V630M480 0V630M560 0V630M640 0V630M720 0V630M800 0V630M880 0V630M960 0V630M1040 0V630M1120 0V630"/>
+  </g>
+  <text x="90" y="140" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#f05a28">&lt;/&gt; ivin.</text>
+  <text x="90" y="300" font-family="Arial,sans-serif" font-size="88" font-weight="800" letter-spacing="-5" fill="#fff">Ideas into</text>
+  <text x="90" y="395" font-family="Arial,sans-serif" font-size="88" font-weight="800" letter-spacing="-5" fill="#f05a28">intelligent</text>
+  <text x="90" y="490" font-family="Arial,sans-serif" font-size="88" font-weight="800" letter-spacing="-5" fill="#fff">systems.</text>
+  <text x="94" y="560" font-family="Arial,sans-serif" font-size="17" font-weight="600" letter-spacing="3" fill="#aeb5bc">AI · SOFTWARE · SYSTEMS</text>
+  <circle cx="1030" cy="335" r="170" fill="none" stroke="#f05a28" stroke-width="1" opacity=".35"/>
+  <circle cx="1030" cy="335" r="125" fill="none" stroke="#f05a28" stroke-width="1" stroke-dasharray="5 7" opacity=".6"/>
+  <circle cx="1030" cy="335" r="70" fill="#f05a28" opacity=".12"/>
+  <path d="M850 335H1210M1030 155V515" stroke="#f05a28" opacity=".35"/>
+  <circle cx="1030" cy="335" r="7" fill="#f05a28"/>
+</svg>
