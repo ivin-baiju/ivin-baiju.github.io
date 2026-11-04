@@ -67,6 +67,14 @@
   });
 
   const projectData = {
+    visionlytics: {
+      kicker: 'PRODUCTION BUILD / 01',
+      title: 'VISIONLYTICS v1.0',
+      description: 'A full-stack, multi-tenant computer vision SaaS platform rebuilt from the ground up as a Turborepo monorepo. Analyses images, video uploads, live webcams, and RTSP streams per frame with honest temperature-scaled confidence.',
+      direction: '5-stage deterministic optical pipeline: Presigned S3 & magic-byte MIME verification → Calibrated Apache-2.0 RT-DETRv2-R18vd & YOLOS-Tiny ONNX detection (+ SAHI 2×2 tiled pass) → ByteTrack with Alpha-Beta Kalman smoothing & 26-d HSV/Lab Re-ID → Elliptical border-ring foreground CIELAB + CIEDE2000 (ΔE00) 28-colour & torso/leg garment naming → TimescaleDB hypertable, ray-cast polygon zones, and a continuous-evaluation Model Registry gate (mAP50-95 >= 0.83).',
+      focus: 'React 19, Vite 8, Tailwind v4, WebGL2 GLSL shaders, 60fps HTML5 Canvas, Fastify 5, Drizzle ORM, PostgreSQL 16 + TimescaleDB, Redis + BullMQ, FastAPI, ONNX Runtime (Measured Golden mAP50: 91.43%, mAP50-95: 85.14%, CIEDE2000 Colour Acc: 85.71%, Person Count MAE: 0.00).',
+      status: 'STATUS / LIVE PRODUCTION v1.0 · DEPLOYED ON GITHUB PAGES, VERCEL & DOCKER COMPOSE'
+    },
     monarch: {
       kicker: 'BUILD NOTES / 02',
       title: 'MONARCH',
