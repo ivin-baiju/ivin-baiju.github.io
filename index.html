@@ -133,8 +133,8 @@
           <span class="toolbar-note">A FEW OPEN TABS IN MY MIND</span>
           <div class="filter-controls" role="group" aria-label="Filter projects">
             <button class="filter-button active" data-filter="all" aria-pressed="true">All work <span>04</span></button>
-            <button class="filter-button" data-filter="build" aria-pressed="false">Building <span>02</span></button>
-            <button class="filter-button" data-filter="explore" aria-pressed="false">Exploring <span>02</span></button>
+            <button class="filter-button" data-filter="build" aria-pressed="false">Building <span>03</span></button>
+            <button class="filter-button" data-filter="explore" aria-pressed="false">Exploring <span>01</span></button>
           </div>
         </div>
 
@@ -192,18 +192,18 @@
             </div>
           </article>
 
-          <article class="project-card project-lab reveal" data-category="explore">
+          <article class="project-card project-lab reveal" data-category="build">
             <div class="project-visual lab-visual">
-              <div class="visual-label">L / 004 <span>MODEL SYSTEMS LAB</span></div>
-              <div class="lab-stack" aria-hidden="true"><div class="stack-glow"></div><div class="stack-layer layer-1"><span>01</span><b>MODEL</b><i></i></div><div class="stack-layer layer-2"><span>02</span><b>INFERENCE</b><i></i></div><div class="stack-layer layer-3"><span>03</span><b>OBSERVABILITY</b><i></i></div><div class="stack-layer layer-4"><span>04</span><b>INTERPRET</b><i></i></div><div class="lab-axis">LOCAL-FIRST / SLM</div></div>
-              <div class="visual-bottom"><span>RESEARCH NOTES · 04</span><span>SMALL MODELS. BIG IDEAS.</span></div>
+              <div class="visual-label">L / 004 <span>AUTOREGRESSIVE RUNTIME · APPLE SILICON MPS</span></div>
+              <div class="lab-stack" aria-hidden="true"><div class="stack-glow"></div><div class="stack-layer layer-1"><span>01</span><b>ROPE (θ=10⁶) · GQA · SWIGLU</b><i></i></div><div class="stack-layer layer-2"><span>02</span><b>ZERO-COPY INT8 / INT4 STREAM</b><i></i></div><div class="stack-layer layer-3"><span>03</span><b>DYNAMIC · STATIC · PAGED KV</b><i></i></div><div class="stack-layer layer-4"><span>04</span><b>48.3 TOK/S · 4.13 GB VRAM</b><i></i></div><div class="lab-axis">PARITY / 1.000002</div></div>
+              <div class="visual-bottom"><span>ANODIZED SILICON BENCH · v2.0</span><span>TOKEN → TELEMETRY</span></div>
             </div>
             <div class="project-content">
-              <div class="project-topline"><span class="project-type">LLMs · INFERENCE · INTERPRETABILITY</span><span class="status status-research"><i></i> RESEARCH TRACK</span></div>
-              <h3>Small Model Systems<span class="orange-dot">.</span></h3>
-              <p>Exploring the infrastructure around smaller language models — from inference and quantization to local-first observability and understanding model behaviour.</p>
-              <div class="tag-list"><span>SLMs</span><span>Quantization</span><span>Inference</span><span>Interpretability</span></div>
-              <button class="text-action project-detail-trigger" data-project="slm">Explore the research <span>↗</span></button>
+              <div class="project-topline"><span class="project-type">PYTORCH MPS RUNTIME · ZERO-COPY QUANTIZATION</span><span class="status status-active"><i></i> LIVE APP · PRODUCTION v2.0</span></div>
+              <h3>Custom SLM Inference<span class="orange-dot">.</span></h3>
+              <p>From-scratch PyTorch transformer inference engine for Apple Silicon M4 — implementing hand-written RoPE, Grouped-Query Attention (GQA), SwiGLU, vLLM-style Paged KV Cache, zero-copy safe_open INT8/INT4 weight streaming (13 GB OOM → 4.13 GB), LoRA fine-tuning, and a 3-workspace hardware telemetry workbench.</p>
+              <div class="tag-list"><span>PyTorch 2.x MPS</span><span>RoPE · GQA · SwiGLU</span><span>Zero-Copy INT8 / INT4</span><span>Paged KV Cache</span><span>OpenAI SSE + Prometheus</span></div>
+              <div class="project-links"><a href="https://ivin-baiju.github.io/Custom_SLM_Inference/" target="_blank" rel="noopener noreferrer">Open live app <span>↗</span></a><a href="https://github.com/ivin-baiju/Custom_SLM_Inference" target="_blank" rel="noopener noreferrer">Source code <span>↗</span></a><button class="text-action project-detail-trigger" data-project="slm">Architecture &amp; benchmarks <span>↗</span></button></div>
             </div>
           </article>
         </div>

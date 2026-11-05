@@ -92,12 +92,12 @@
       status: 'STATUS / CONCEPT · A PROPOSED BUILD, NOT A DEPLOYED SAFETY SYSTEM'
     },
     slm: {
-      kicker: 'RESEARCH NOTES / 04',
-      title: 'SMALL MODEL SYSTEMS',
-      description: 'A research track around the systems that make smaller language models practical, efficient, observable, and easier to understand.',
-      direction: 'Explore inference serving, quantization with minimal quality loss, multilingual niche adaptation, and local-first observability for model memory and behaviour.',
-      focus: 'SLM inference, low-bit quantization, fine-tuning, observability, and mechanistic interpretability.',
-      status: 'STATUS / EXPLORATION · RESEARCH DIRECTIONS AND EARLY EXPERIMENTS'
+      kicker: 'PRODUCTION BUILD / 04',
+      title: 'CUSTOM SLM INFERENCE ENGINE v2.0',
+      description: 'A from-scratch autoregressive transformer inference runtime and 3-workspace hardware telemetry workbench engineered in pure PyTorch for Apple Silicon Unified Memory — zero wrappers, zero transformers.generate().',
+      direction: '6-stage deterministic tensor pipeline: ChatML Tokenization & Embedding → Pre-Attention FP32-upcast RMSNorm → QKV Projection + RoPE (θ = 1,000,000) → Grouped-Query Attention (7:1 KV head sharing via repeat_interleave) with Dynamic, Static & vLLM-style 16-token Paged KV Cache → SwiGLU MLP → Repetition Penalty, Top-K/Top-P sampler & OpenAI-compatible SSE telemetry stream.',
+      focus: 'PyTorch 2.x (MPS/CUDA/CPU), Zero-Copy safe_open INT8 symmetric & INT4 nibble-packed quantization (compressing Qwen2.5-3B peak RAM from 13.0 GB OOM to 4.13 GB), multi-architecture support (Qwen2, Llama3, Phi-3, Gemma2), PEFT/TRL LoRA fine-tuning (ivin-baiju/qwen2.5-0.5b-expert), FastAPI, Prometheus, and a 3-workspace Anodized Silicon & EUV Cobalt UI (Measured: 1.00000179 Cosine Logits Parity vs HF, 48.3 tok/s FP16, 36.8 ms TTFT, 1.88× KV Cache speedup, 20/20 pytest suite).',
+      status: 'STATUS / LIVE PRODUCTION v2.0 · DEPLOYED ON GITHUB PAGES, HUGGING FACE HUB & PYPI CLI'
     }
   };
   const dialog = $('#projectDialog');
