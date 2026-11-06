@@ -89,7 +89,7 @@
       description: 'A full-stack, enterprise-grade Air Traffic Control surface and terminal radar simulator paired with a real-time ADS-B live flight tracking engine, authentic airline liveries, and interactive 3D aircraft inspection.',
       direction: 'Real-time OpenSky Network ADS-B ingestion with 100ms dead-reckoning kinematics, individual 3D WebGL airframes (A320neo, B737, B787, A350, B777, ATR72) in authentic airline liveries (IndiGo, Air India, SpiceJet, Vistara, Akasa), high-definition Esri satellite radar, and a deterministic proactive AI runway incursion safety filter.',
       focus: 'FastAPI, Python 3.12, React 19, TypeScript 5.7, Three.js WebGL 3D, OpenSky Network ADS-B Mode-S, GeoJSON + Local ENU Projection, 60fps HTML5 Canvas with pointer capture, WCAG AA compliant Light Theme.',
-      status: 'STATUS / LIVE PRODUCTION v1.0 · OPEN SOURCE ON GITHUB & DOCKER'
+      status: 'STATUS / LIVE PRODUCTION v1.0 · DEPLOYED AT IVIN.IN/ATC_SIMULATION'
     },
     slm: {
       kicker: 'PRODUCTION BUILD / 04',
