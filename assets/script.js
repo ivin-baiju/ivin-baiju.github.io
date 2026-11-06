@@ -84,12 +84,12 @@
       status: 'STATUS / IN DEVELOPMENT · FRONTEND AND SYSTEM INTEGRATION WORK'
     },
     atc: {
-      kicker: 'CONCEPT NOTES / 03',
-      title: 'AI AIR TRAFFIC CONTROL SIMULATION',
-      description: 'A simulation-first concept for exploring how an AI controller could monitor aircraft, spot emerging conflicts, and communicate safe instructions in a controlled virtual airport environment.',
-      direction: 'Recreate an airport layout, replay traffic, inject near-miss scenarios, and evaluate how a controller detects and responds to changing situations.',
-      focus: 'Airport and traffic simulation, scenario design, conflict detection, decision support, and aircraft response logic.',
-      status: 'STATUS / CONCEPT · A PROPOSED BUILD, NOT A DEPLOYED SAFETY SYSTEM'
+      kicker: 'PRODUCTION BUILD / 03',
+      title: 'SKYCOMMAND: ATC SURFACE & LIVE ADS-B FLIGHTRADAR',
+      description: 'A full-stack, enterprise-grade Air Traffic Control surface and terminal radar simulator paired with a real-time ADS-B live flight tracking engine, authentic airline liveries, and interactive 3D aircraft inspection.',
+      direction: 'Real-time OpenSky Network ADS-B ingestion with 100ms dead-reckoning kinematics, individual 3D WebGL airframes (A320neo, B737, B787, A350, B777, ATR72) in authentic airline liveries (IndiGo, Air India, SpiceJet, Vistara, Akasa), high-definition Esri satellite radar, and a deterministic proactive AI runway incursion safety filter.',
+      focus: 'FastAPI, Python 3.12, React 19, TypeScript 5.7, Three.js WebGL 3D, OpenSky Network ADS-B Mode-S, GeoJSON + Local ENU Projection, 60fps HTML5 Canvas with pointer capture, WCAG AA compliant Light Theme.',
+      status: 'STATUS / LIVE PRODUCTION v1.0 · OPEN SOURCE ON GITHUB & DOCKER'
     },
     slm: {
       kicker: 'PRODUCTION BUILD / 04',
